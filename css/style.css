@@ -1,53 +1,96 @@
-
-
-body{
-    
+body {
     color: black;
-    
 }
- .topnav {
+
+.topnav {
     background-color: grey;
     overflow: hidden;
- }
- .topnav a{
-    float: left;
-    color : white;
-    text-align: center;
-    padding :12px 14px;
-    text-decoration: none;
-    font-size: 17px;
-
- }
- .topnav a:hover{
-    background-color:white;
-    color:black;
- }
- .topnav a.active {
-    background-color: green;
-color :white;
- }
-
-    img {
-        width: 200px;
-   height: 100px;
-  
 }
 
-    .button
-    {
-        position: absolute;
-        top: 300px;
-        right:80px;
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: blue;
-        color:white;
-        text-decoration:none;
-        font-size: 16px;
-        border:none;
-        border-radius:4px;
-        cursor: pointer;
-    }
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
 
-    
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
 
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+.button {
+    position: absolute;
+    top: 300px;
+    right: 80px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.label {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.column {
+    width: 15%;
+    float: left;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(104, 104, 104);
+    height: 200px;
+    margin: 5px;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.button-container {
+    position: relative;
+}
+
+.box {
+    width: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    background-color: blue;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
