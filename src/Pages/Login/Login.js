@@ -30,7 +30,9 @@ const Login = () => {
 			<div className="login-btn" onClick={() => loginCheck()}>
 				<span>Login Here</span>
 			</div>
-			<Button variant="success">Primary</Button> <p className={result === 1 ? "success" : "error"}>{resultMsg}</p>
+			<div>
+				<p>Username : {username}</p>
+			</div>
 		</div>
 	);
 };
